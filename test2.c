@@ -4,7 +4,7 @@
 static int8_t count1;                  /* Non-compliant - "count" has internal
                                        * linkage but clashes with other
                                        * identifiers of the same name             */
-static void foo ( void )              /* Non-compliant - "foo" has internal
+static void foo2 ( void )              /* Non-compliant - "foo" has internal
                                        * linkage but clashes with a function of
                                        * the same name                            */
 {
