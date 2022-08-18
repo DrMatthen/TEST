@@ -18,3 +18,11 @@ void bar1 ( void )
                                        * has no linkage                           */
   foo1 ( ); 
 }
+
+
+void zing232()
+{
+	int zero = 0;
+	int massive_number = 23;
+	int total = massive_number/zero;
+};
